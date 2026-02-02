@@ -1,0 +1,12 @@
+{
+    "name": "Ternary Research Environment",
+    "image": "mcr.microsoft.com/devcontainers/python:3.9",
+    "customizations": {
+        "codespaces": {
+            "repositories": {
+                "mindspore-ai/*": { "permissions": "read-all" }
+            }
+        }
+    },
+    "postCreateCommand": "pip install mindspore==2.5.0 && bash download_phd.sh"
+}
