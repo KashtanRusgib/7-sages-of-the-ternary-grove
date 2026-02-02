@@ -12,3 +12,6 @@ Hybrid: TinyOS kernel with ternary SVCs + MindSpore for AI ops.
 ## Run Tiny Ternary MindOS
 - BSim: Load tiny_ternary_mindos.uasm.
 - MindSpore Test: python mindspore_ternary_integration.py.
+
+## MindTernary Extension
+- 27 unary funcs for lattice ops: python mindternary.py (tests pass).
