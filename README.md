@@ -5,3 +5,6 @@ hot ternary fun
 Hybrid: TinyOS kernel with ternary SVCs + MindSpore for AI ops.
 - Assemble tiny_ternary_mindos.uasm in BSim.
 - Run mindspore_ternary_integration.py for sim.
+
+## Testing
+- Run all: `python all_tests.py` (validates ternary/MindSpore/MindOS).
